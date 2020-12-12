@@ -1,0 +1,53 @@
+
+/* Elements */
+body {
+  background-image: url("../images/MathChalkboard.jpg");
+  background-color: #C4F9FF;
+  background-size: cover;
+}
+
+/* Classes */
+.main-pic-container{
+  margin-top: 5vh;
+  text-align: center;
+}
+.main-pic{
+  border: 0.5em;
+  border-radius: 5%;
+  border-style: ridge;
+  border-color: rgba(28, 156, 113, 1);
+}
+
+.white-card{
+  background-color: #D8FAEB;
+  border-radius: 10%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+.white-card>h2{
+  color: black;
+  font-size: 2em;
+  margin: 1.5em 0.5em 1.5em 0.5em;
+
+}
+
+
+
+/*Footer Styling */
+.custom-footer{
+  border-top: 2px solid #487C7F;
+  justify-content: center;
+  margin-top: 3em;
+}
+.my-credit{
+  padding: 0.5em;
+}
+.heart-icon{
+  padding: 0em 0.2em 0em 0.2em;
+}
+
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
