@@ -1,3 +1,12 @@
+/*
+Media Query to align content center on mobile screens
+*/
+@media (max-width: 750px){
+  .card-container{
+    text-align: center;
+  }
+}
+
 
 /* Elements */
 body {
@@ -7,29 +16,40 @@ body {
 }
 
 /* Classes */
-.main-pic-container{
-  margin-top: 5vh;
-  text-align: center;
-}
 .main-pic{
   border: 0.5em;
   border-radius: 5%;
   border-style: ridge;
   border-color: rgba(28, 156, 113, 1);
 }
-
-.white-card{
+/* White Card Styling */
+.card-container{
   background-color: #D8FAEB;
-  border-radius: 10%;
+  border-radius: 5%;
   margin-left: 5vw;
   margin-right: 5vw;
+  min-width: 85vw;
+  max-width: 700px;
+  font-family: "Courier New", monospace;
 
 }
-.white-card>h2{
+.card-container>h2{
   color: black;
   font-size: 2em;
-  margin: 1.5em 0.5em 1.5em 0.5em;
-
+  margin: 1em 1em 0.5em 1em;
+  border-bottom: 1px solid green;
+  display: block;
+  padding-top: 0.4em;
+}
+.card-content{
+  display: inline-block;
+  padding: 0em 1em 1em 1em;
+}
+.card-content>div{
+  padding-left: 1em;
+  padding-right: 1em;
+  display: inline-block;
+  vertical-align: top;
 }
 
 
