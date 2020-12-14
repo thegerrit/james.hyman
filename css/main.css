@@ -68,12 +68,11 @@ body {
   text-align: left;
   font-family: "Courier New", monospace;
 }
-/* .left-paragraph{
-  max-width: 100%;
-  min-width:50%;
-  border-right: 1px solid grey;
-  padding-right: 1em;
-} */
+.card-image{
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+}
 
 /*Styling for Quick Links*/
 .quick-link-container{
