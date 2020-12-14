@@ -24,8 +24,8 @@
 
     <!-- Personalized Stylesheets-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/people.css">
-    <link rel="stylesheet" type="text/css" href="css/media_queries.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/people.css">
+    <link rel="stylesheet" type="text/css" href="css/media_queries.css"> -->
 
     <!-- TODO: Change Icon: icon for the tab -->
     <link rel="icon" href="icons/function.png" />
@@ -87,16 +87,55 @@ tensors,  ugs,  unstructured grids,  wave equations"">
   <body>
 
 
+    <!-- Profile Pic and Word Cloud -->
+    <div class="card-container">
+      <h2></h2>
+      <div class="card-content">
+          <div>
+            <img  class="main-pic" src="images/hyman.jpg"/>
+          </div>
+          <div>
+            <img class ="wordcloud" src="images/wordcloud.png"></img>
+          </div>
+      </div>
+
+    </div>
+
+    <!-- Quick Links -->
+    <div class="card-container">
+      <h2> Quick Links </h2>
+      <div class="quick-link-container">
+          <a class="quick_link" href="#contact">
+              <!-- <span class="quick_link">Contact</span>
+              <span class="quick_link">Research</span> -->
+              Contact
+          </a>
+          <a class="quick_link" href="#interests">
+              Research Interests
+          </a>
+          <a class="quick_link" href="#papers">
+              Publications and Research
+          </a>
+          <a class="quick_link" href="#joy">
+              Life, Joy, and the Pursuit of Happiness
+          </a>
+      </div>
+
+    </div>
+
+
   <!-- Contact Card -->
+  <span id="contact"/>
+
   <div class="card-container">
-    <h2> Welcome </h2>
+    <h2> Contact Me </h2>
     <div class="card-content">
         <div>
-          <img  class="main-pic" src="images/hyman.jpg"/>
+          <img src="images/tulane_shield.jpg"/>
         </div>
         <div>
-          <p>
-            James (Mac) Hyman <br><br>
+          <p class="contact-info">
+            Dr. James (Mac) Hyman <br><br>
             Tulane University <br>
             Department of Mathematics <br><br>
             6823 St. Charles Ave <br>
@@ -112,6 +151,7 @@ tensors,  ugs,  unstructured grids,  wave equations"">
 
 
   <!-- Research Interests -->
+  <span id="interests"/>
   <div class="card-container">
     <h2> Research Interests </h2>
     <div class="card-content">
@@ -124,22 +164,23 @@ tensors,  ugs,  unstructured grids,  wave equations"">
   </div>
 
   <!-- Publications and Research -->
+  <span id="papers"/>
     <div class="card-container">
       <h2> Publications and Research</h2>
       <div class="card-content">
           <div>
-            <ul>
-              <li> Numerical Analysis </li>
-              <li> Mathematical Physics and Soliton Dynamics </li>
-              <li> Mathematical Biology </li>
-            </ul>
+            <p>
+              Numerical Analysis <br>
+              Mathematical Physics and Soliton Dynamics <br>
+              Mathematical Biology <br>
+            </p>
           </div>
       </div>
 
   </div>
 
   <!-- Life, Joy, and the Pursuit of Happiness -->
-
+  <span id="joy"/>
   <div class="card-container">
     <h2> Life, Joy, and the Pursuit of Happiness </h2>
     <div class="card-content">

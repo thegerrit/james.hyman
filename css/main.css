@@ -17,6 +17,7 @@ body {
   background-image: url("../images/MathChalkboard.jpg");
   background-color: #C4F9FF;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Classes */
@@ -25,16 +26,21 @@ body {
   border-radius: 5%;
   border-style: ridge;
   border-color: rgba(28, 156, 113, 1);
+  max-width: 85%;
+}
+.wordcloud{
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 50vw;
 }
 /* White Card Styling */
 .card-container{
-  background-color: #D8FAEB;
+  background-color: #FAFAFA;
   border-radius: 1em;
   margin-left: 5vw;
   margin-right: 5vw;
-  min-width: 85vw;
-  max-width: 700px;
-  font-family: "Courier New", monospace;
+  width: 90vw;
+  font-family: "Monaco", monospace;
 
 }
 .card-container>h2{
@@ -52,11 +58,36 @@ body {
 .card-content>div{
   padding-left: 1em;
   padding-right: 1em;
-  display: inline-block;
-  vertical-align: top;
-
+  display: inline-flex;
+  vertical-align: middle;
+}
+.card-content>div>p{
+  text-align: left !important;
+}
+.contact-info{
+  text-align: left;
+  font-family: "Courier New", monospace;
 }
 
+/*Styling for Quick Links*/
+.quick-link-container{
+  text-align: left !important;
+  padding: 0em 0em 1em 1em;
+}
+.quick_link{
+  width: 90%;
+  /* background-color: grey; */
+  padding: 1em 1em 1em 1em;
+  display:block;
+  text-decoration: none;
+  color: black;
+}
+.quick_link:hover{
+  background-color: lightgrey;
+}
+.quick_link:active{
+  color:blue;
+}
 
 
 /*Footer Styling */
