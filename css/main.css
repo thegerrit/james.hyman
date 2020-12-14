@@ -47,7 +47,7 @@ body {
   color: black;
   font-size: 2em;
   margin: 1em 1em 0.5em 1em;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid grey;
   display: block;
   padding-top: 0.4em;
 }
@@ -68,6 +68,12 @@ body {
   text-align: left;
   font-family: "Courier New", monospace;
 }
+/* .left-paragraph{
+  max-width: 100%;
+  min-width:50%;
+  border-right: 1px solid grey;
+  padding-right: 1em;
+} */
 
 /*Styling for Quick Links*/
 .quick-link-container{
