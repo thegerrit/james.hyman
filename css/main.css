@@ -64,7 +64,6 @@ body {
 }
 .card-content>div>p{
   text-align: left !important;
-  max-width: 85%;
 }
 .contact-info{
   text-align: left;
