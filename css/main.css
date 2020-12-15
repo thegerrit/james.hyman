@@ -7,7 +7,7 @@ Media Query to align content center on mobile screens
   text-align: center;
 }
 .card-container>div{
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 
@@ -27,11 +27,13 @@ body {
   border-style: ridge;
   border-color: rgba(28, 156, 113, 1);
   max-width: 85%;
+  background-color: rgba(28, 156, 113, 1)
 }
 .resize-img{
-  min-width: 200px;
-  min-height: 200px;
-  max-width: 50vw;
+  min-width: 100px;
+  width: 100%;
+  height: auto;
+  /* max-width: 50vw; */
 }
 /* White Card Styling */
 .card-container{
@@ -39,9 +41,9 @@ body {
   border-radius: 1em;
   margin-left: 5vw;
   margin-right: 5vw;
-  width: 90vw;
+  /* width: 90vw; */
   font-family: "Verdana", sans-serif;
-  min-width: 400px;
+  padding-bottom: 1em;
 
 }
 .card-container>h2{
@@ -64,6 +66,7 @@ body {
 }
 .card-content>div>p{
   text-align: left !important;
+  width: 100%;
 }
 .contact-info{
   text-align: left;
@@ -81,22 +84,25 @@ body {
   display:inline-block;
   text-align: left;
   margin-left: 2em;
+  /* responsive styling */
+  max-width: 400px;
 }
 .right-wrapped-label{
   font-style:italic;
   text-align:left;
-  max-width:300px;
   float:right;
   margin: 0.5em 0em 1em 2em;
+  max-width: 400px;
 }
 
 /*Styling for Quick Links*/
 .quick-link-container{
   text-align: left !important;
   padding: 0em 0em 1em 1em;
+  margin-right: 1em;
 }
 .quick_link{
-  width: 90%;
+  /* width: 90%; */
   /* background-color: grey; */
   padding: 1em 1em 1em 1em;
   display:block;
