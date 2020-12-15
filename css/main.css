@@ -79,19 +79,19 @@ body {
   width: 100%;
   max-width: 400px;
 }
-.right-wrapped-img{
-  float:right;
-  display:inline-block;
-  text-align: left;
-  margin-left: 2em;
-  /* responsive styling */
-  max-width: 400px;
-}
+
 .right-wrapped-label{
   font-style:italic;
   text-align:left;
   float:right;
   margin: 0.5em 0em 1em 2em;
+  max-width: 400px;
+}
+.left-wrapped-label{
+  font-style:italic;
+  text-align:left;
+  float:left;
+  margin: 1em 2em 1em 0em;
   max-width: 400px;
 }
 
