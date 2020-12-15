@@ -116,6 +116,20 @@ body {
   color:blue;
 }
 
+/*Q&A Styling */
+.question{
+  display:block !important;
+  text-align: left;
+  padding: 1em 0em 1em 0em;
+  background-color: lightgrey;
+}
+.answer{
+
+  display:block !important;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
 
 /*Footer Styling */
 .custom-footer{
