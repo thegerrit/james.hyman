@@ -19,6 +19,16 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+footer{
+  background-color: lightgrey;
+  width: 95vw;
+  margin: none;
+  border-radius: 5px;
+  font-family: "Verdana", sans-serif;
+  font-size: 0.7em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
 
 /* Classes */
 .main-pic{
