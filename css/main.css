@@ -120,15 +120,14 @@ body {
   color:blue;
 }
 
-/*Q&A Styling */
-.question{
+/*Zebra Styling */
+.zebra_lightgrey{
   display:block !important;
   text-align: left;
   padding: 1em 0em 1em 0em;
   background-color: lightgrey;
 }
-.answer{
-
+.zebra_white{
   display:block !important;
   text-align: left;
   margin: 1em 0em 1em 0em;
