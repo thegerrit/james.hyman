@@ -22,12 +22,13 @@ body {
 
 /* Classes */
 .main-pic{
-  border: 0.5em;
-  border-radius: 5%;
-  border-style: ridge;
-  border-color: rgba(28, 156, 113, 1);
+  /* border: 0.5em; */
+  /* border-radius: 5%; */
+  /* border-style: ridge; */
+  /* border-color: rgba(28, 156, 113, 1); */
   max-width: 85%;
-  background-color: rgba(28, 156, 113, 1)
+  background-color: rgba(28, 156, 113, 1);
+  margin-bottom: 22px;
 }
 .resize-img{
   min-width: 100px;
@@ -134,6 +135,12 @@ body {
   margin: 1em 0em 1em 0em;
 }
 
+/* Image Styling */
+.custom-border{
+  border: 3px ridge darkgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
+
+}
 
 /*Footer Styling */
 .custom-footer{
